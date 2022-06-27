@@ -91,12 +91,12 @@ jobs:
           #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/bnx2/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/bnx2x/rpext-index.json
           #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/tg3/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/iavf/rpext-index.json
+          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/iavf/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/igb/rpext-index.json
           #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/igbvf/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/ixgbe/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/ixgbevf/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/vmw_pvscsi/rpext-index.json
+          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/ixgbe/rpext-index.json
+          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/ixgbevf/rpext-index.json
+          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/vmw_pvscsi/rpext-index.json
           
 
       - name: 添加扩展驱动[dva3221]
