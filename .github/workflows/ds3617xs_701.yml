@@ -76,27 +76,27 @@ jobs:
         run: |
           ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-boot-wait.json
           ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-acpid.json
-          ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-virtio.json
-          ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/pocopico-r8125.json
-          #./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-misc.json
+          # ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-virtio.json
+          # ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/pocopico-r8125.json
+          # ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-misc.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/atlantic/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/e1000e/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/e1000/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/e1000e/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/e1000/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/vmxnet3/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/r8152/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/megaraid_sas/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/mptsas/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/megaraid_sas/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/mptsas/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/mpt2sas/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/mpt3sas/rpext-index.json
-          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/bnx2/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/mpt3sas/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/bnx2/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/bnx2x/rpext-index.json
-          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/tg3/rpext-index.json
-          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/iavf/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/igb/rpext-index.json
-          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/igbvf/rpext-index.json
-          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/ixgbe/rpext-index.json
-          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/ixgbevf/rpext-index.json
-          #./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/vmw_pvscsi/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/tg3/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/iavf/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/igb/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/igbvf/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/ixgbe/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/ixgbevf/rpext-index.json
+          # ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/vmw_pvscsi/rpext-index.json
           
 
       - name: 添加扩展驱动[dva3221]
