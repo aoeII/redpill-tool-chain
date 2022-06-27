@@ -28,14 +28,10 @@ jobs:
             version: 7.0.1-42218
           - platform: ds3617xs
             version: 7.1.0-42661
-
-          - platform: ds918p
-            version: 6.2.4-25556
           - platform: ds918p
             version: 7.0.1-42218
           - platform: ds918p
             version: 7.1.0-42661
-
 
     steps:
       - name: 检出项目文件
@@ -100,6 +96,7 @@ jobs:
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/mpt3sas/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/bnx2/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/bnx2x/rpext-index.json
+          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/tg3/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/iavf/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/igb/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/raw/main/igbvf/rpext-index.json
